@@ -273,7 +273,7 @@ def main():
     
     st.sidebar.markdown('<p class="big-font-1">appD AI</p>', unsafe_allow_html=True)
     # st.sidebar.info("""Welcome to Google's Gemini 🌟""")
-    st.sidebar.image("Image1/16.png")
+    st.sidebar.image("Image1/16.png", width=100)
  
     page = st.sidebar.radio("""**Choose Platform**""",("Let's Talk", "Writer", "Coder", "Email Attender", "Stock Market", "Web Development", "Image Analyzer", "Educatioanl Query Search"))
     # "File Analyzer",
