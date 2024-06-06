@@ -298,24 +298,7 @@ def main():
     elif page == "Educatioanl Query Search":
         page_10()
 
-    # # 🌟, 🔧
-    # with st.sidebar.container(height = 235, border = False):
-    #     st.info("""
-                    
-    #                 ***[:blue[JenDG2.ai]](https://geminijend--phase-1-dpai242.streamlit.app/)***, a Generative AI platform has been created by [:blue[Dipankar Porey]](https://www.linkedin.com/in/dipankar-porey-403320259/), 
-    #                 Technology Consultant, Senior at Ernst & Young LLP.
-                    
-    #                 This application has been built using the Google's Gemini platform, based on the Large Language Models(LLMs).
-                    
-    #                 🌐Language: English
-                    
-    #                 🔖Version: Updated with the current version
-                    
-    #                 📅Date: 10th January, 2023
-                    
-    #                 """)
-    #  Gorq_function(model_name = model_name)
-
+   
     show_advanced_info_1 = st.sidebar.toggle(":blue[*Show Application Details*]", value = True)
     
     if show_advanced_info_1:
@@ -339,7 +322,7 @@ def main():
         st.sidebar.info("""
                     
                     *This appplication has been created by [:blue[Partha Pratim Das]](https://www.linkedin.com/in/partha-pratim-das-577a5021b), 
-                    Former Technology Consultant, Ernst & Young LLP.* 
+                     Technology Consultant, Ernst & Young LLP.* 
                     
                     """)
 
