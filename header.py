@@ -312,7 +312,7 @@ def main():
                     
                     - **Language:** *English*
                     
-                    - **Release Date:** *May, 2024*
+                    - **Release Date:** *June, 2024*
                     
                     """)
         
